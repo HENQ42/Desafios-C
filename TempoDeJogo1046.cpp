@@ -9,16 +9,16 @@ if(hi == hf){
     hr = 24;
 }else{
     if(hi > 12 && hf > 12){
-        hr = (hf + 12) - (hi - 12);
+        hr = hf - hi;
     }else{
         if(hi < 12 && hf > 12){
             hr = hf - hi;
         }else{
-            if(hi < 12 && hf < 12){
-                hr = hf - hi;
+            if(hi > 12 && hf < 12){
+                hr = (hf + 12) - (hi - 12);
             }else{
                 if(hi < 12 && hf < 12){
-                     hr = hi + hf;
+                     hr = hf - hi;
                 }
             }
         }
@@ -26,3 +26,4 @@ if(hi == hf){
 }
 cout << "O JOGO DUROU " << hr << " HORA(S)" << endl;
 }
+
