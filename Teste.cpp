@@ -4,14 +4,14 @@
  using namespace std;
 
 int main(){
- int nFunci;
- double horasTrab, vPHora, resulSal;
+ int seg, horas, minutos, temp, resto;
+temp = 7000;
 
-cin >> nFunci >> horasTrab >> vPHora;
+horas = temp / (60*60);
+resto = temp % (60*60);
+minutos = resto / 60;
+resto = resto % 60;
+seg = resto;
 
- resulSal = horasTrab * vPHora;
-
-cout << fixed << setprecision(2);
-cout << "NUMBER = " << nFunci << endl << "SALARY = U$ " << resulSal << endl;
-
+cout << horas << endl << minutos << endl << seg << endl << resto << endl;
 }
