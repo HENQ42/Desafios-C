@@ -5,7 +5,7 @@
 
 int main(){
  int seg, horas, minutos, temp, resto;
-temp = 7000;
+temp = 11700;
 
 horas = temp / (60*60);
 resto = temp % (60*60);
