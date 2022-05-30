@@ -7,7 +7,7 @@ int main (){
     int contagem = 0;
     bool decisao = true;
 
-    while(decisao){
+    for(contagem=0; contagem < 4; contagem++){
         cin >> n;
         if(n < n1){
             if(n < n2){
@@ -31,10 +31,6 @@ int main (){
             n2 = n1;
             n1 = n;
             n = 0;
-        }
-        contagem++;
-        if(contagem >= 4){
-            decisao = false;
         }
     }
 return 0;
