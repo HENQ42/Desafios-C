@@ -17,6 +17,6 @@ int main() {
     alturaMedia = alturaMedia/15;
     cout << "Menor Altura do grupo foi de: " << menorAltura << ", Na posicao: " << nGrupo << endl;
     cout << fixed << setprecision(2);
-    cout << "Altura media: " << alturaMedia << endl << endl;
+    cout << "Altura media: " << alturaMedia << endl;
 }
 
