@@ -8,6 +8,5 @@ int main(){
         val = vetorN[0]*pow(2, i);
         cout << "N[" << i << "] = " << val << endl;
     }
-    
     return 0;
 }
